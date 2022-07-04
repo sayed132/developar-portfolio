@@ -9,7 +9,7 @@ h1{
     color: chartreuse;
 }
 
-section{
+.flex-display{
     display: flex;
     padding-bottom: 150px;
 }
@@ -52,4 +52,31 @@ section{
     width: 80%;
     padding-right: 10%;
     padding-top: 5%;
+}
+
+
+.exp-item{
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 50px 10px gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    border-radius: 6px;
+}
+.experince-era{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack-developer{
+    border-left: 7px solid tomato;
+}
+#baby-developer{
+    border-left: 7px solid blue;
+}
+footer p{
+    text-align: center;
 }
