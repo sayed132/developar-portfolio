@@ -7,3 +7,16 @@ h1{
 .heading-name-span{
     color: chartreuse;
 }
+
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.img{
+    width: 80%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
